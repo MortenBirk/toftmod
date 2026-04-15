@@ -1,0 +1,93 @@
+﻿<local:GodPickerPageBase
+    x:Class="athenswpf.Content.Pregame.GodPicker.GodPicker_Norse_Toft"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:athenswpf.Content.Pregame.GodPicker"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:techTree="clr-namespace:athenswpf.Content.Pregame.TechTree"
+    Style="{StaticResource GodPickerPageStyle}"
+    mc:Ignorable="d">
+
+    <local:GodPickerPageBase.Ages>
+        <techTree:TechTreeAge AgeName="ArchaicAge">
+            <techTree:TechTreeAge.Technologies>
+                <techTree:TechTreeNode Power="Gullinbursti" />
+                <techTree:TechTreeNode Tech="EyesInTheForest" />
+            </techTree:TechTreeAge.Technologies>
+        </techTree:TechTreeAge>
+        <techTree:TechTreeAge AgeName="ClassicalAge">
+            <techTree:TechTreeAge.Bonuses>
+                <techTree:TechTreeBonusTrack God="ClassicalAgeForseti">
+                    <techTree:TechTreeBonusTrack.Technologies>
+                        <techTree:TechTreeNode Power="HealingSpring" />
+                        <techTree:TechTreeNode Unit="Troll" />
+                        <techTree:TechTreeNode Tech="HallOfThanes" />
+                        <techTree:TechTreeNode Tech="DwarvenBreastplate" />
+                        <techTree:TechTreeNode Tech="CaveTroll" />
+                    </techTree:TechTreeBonusTrack.Technologies>
+                </techTree:TechTreeBonusTrack>
+
+                <techTree:TechTreeBonusTrack God="ClassicalAgeHeimdall">
+                    <techTree:TechTreeBonusTrack.Technologies>
+                        <techTree:TechTreeNode Power="Undermine" />
+                        <techTree:TechTreeNode Unit="Einheri" />
+                        <techTree:TechTreeNode Tech="Gjallarhorn" />
+                        <techTree:TechTreeNode Tech="Safeguard" />
+                        <techTree:TechTreeNode Tech="Rigsthula" />
+                    </techTree:TechTreeBonusTrack.Technologies>
+                </techTree:TechTreeBonusTrack>
+            </techTree:TechTreeAge.Bonuses>
+        </techTree:TechTreeAge>
+
+        <techTree:TechTreeAge AgeName="HeroicAge">
+            <techTree:TechTreeAge.Bonuses>
+                <techTree:TechTreeBonusTrack God="HeroicAgeBragi">
+                    <techTree:TechTreeBonusTrack.Technologies>
+                        <techTree:TechTreeNode Power="FlamingWeapons" />
+                        <techTree:TechTreeNode Unit="BattleBoar" />
+                        <techTree:TechTreeNode Tech="CallOfValhalla" />
+                        <techTree:TechTreeNode Tech="ThurisazRune" />
+                        <techTree:TechTreeNode Tech="SwineArray" />
+                        <techTree:TechTreeNode Tech="LongSerpent" />
+                    </techTree:TechTreeBonusTrack.Technologies>
+                </techTree:TechTreeBonusTrack>
+
+                <techTree:TechTreeBonusTrack God="HeroicAgeNjord">
+                    <techTree:TechTreeBonusTrack.Technologies>
+                        <techTree:TechTreeNode Power="WalkingWoods" />
+                        <techTree:TechTreeNode Unit="MountainGiant" />
+                        <techTree:TechTreeNode Tech="RingGiver" />
+                        <techTree:TechTreeNode Tech="Vikings" />
+                        <techTree:TechTreeNode Tech="Jotuns" />
+                        <techTree:TechTreeNode Tech="WrathOfTheDeep" />
+                    </techTree:TechTreeBonusTrack.Technologies>
+                </techTree:TechTreeBonusTrack>
+            </techTree:TechTreeAge.Bonuses>
+        </techTree:TechTreeAge>
+
+        <techTree:TechTreeAge AgeName="MythicAge">
+            <techTree:TechTreeAge.Bonuses>
+                <techTree:TechTreeBonusTrack God="MythicAgeHel">
+                    <techTree:TechTreeBonusTrack.Technologies>
+                        <techTree:TechTreeNode Power="Nidhogg" />
+                        <techTree:TechTreeNode Unit="FireGiant" />
+                        <techTree:TechTreeNode Unit="FrostGiant" />
+                        <techTree:TechTreeNode Unit="MountainGiant" />
+                        <techTree:TechTreeNode Tech="Rampage" />
+                        <techTree:TechTreeNode Tech="GraniteBlood" />
+                    </techTree:TechTreeBonusTrack.Technologies>
+                </techTree:TechTreeBonusTrack>
+
+                <techTree:TechTreeBonusTrack God="MythicAgeTyr">
+                    <techTree:TechTreeBonusTrack.Technologies>
+                        <techTree:TechTreeNode Power="Fimbulwinter" />
+                        <techTree:TechTreeNode Unit="FenrisWolfBrood" />
+                        <techTree:TechTreeNode Tech="Berserkergang" />
+                        <techTree:TechTreeNode Tech="Bravery" />
+                    </techTree:TechTreeBonusTrack.Technologies>
+                </techTree:TechTreeBonusTrack>
+            </techTree:TechTreeAge.Bonuses>
+        </techTree:TechTreeAge>
+    </local:GodPickerPageBase.Ages>
+</local:GodPickerPageBase>

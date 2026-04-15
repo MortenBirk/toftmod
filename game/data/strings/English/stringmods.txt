@@ -1,0 +1,17 @@
+ID = "STR_CIV_TOFT"   ;   Str = "Toft"
+ID = "STR_CIV_TOFT_T"   ;   Str = "Cool dude"
+ID = "STR_CIV_TOFT_LR"   ;   Str = "Focus: Cool units.
+• He is very cool.
+• He has cool units.
+• His buildings are cool too."
+
+
+ID = "STR_UNIT_TOFT_NAME"   ;   Str = "Morten"
+ID = "STR_UNIT_TOFT_LR"   ;   Str = "Morten loves gold, and hot chicks."
+ID = "STR_UNIT_TOFT_SR"   ;   Str = "Morten can mind gold, and pull the hot chicks."
+ID = "STR_UNIT_TOFT_EDT_NAME"   ;   Str = "Toft"
+
+ID = "STR_UNIT_HOTGIRL_NAME"   ;   Str = "Super Hot Girl"
+ID = "STR_UNIT_HOTGIRL_LR"   ;   Str = "The chicks like to impress Morten."
+ID = "STR_UNIT_HOTGIRL_SR"   ;   Str = "All day long the chicks look to worship Morten."
+ID = "STR_UNIT_HOTGIRL_EDT_NAME"   ;   Str = "Hot Girl"

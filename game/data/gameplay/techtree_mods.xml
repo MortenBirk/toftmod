@@ -1,0 +1,66 @@
+<techtreemods>
+	<tech name="ArchaicAgeToft">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="Gullinbursti" amount="1.0" cooldown="180" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">EyesInTheForest</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeHeimdall</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeForseti</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeLoki</effect>
+			<effect type="Data" action="HandAttack" amount="1.1" subtype="Damagebonus" unittype="MythUnit" relativity="BasePercent">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.1" subtype="Damagebonus" unittype="MythUnit" relativity="BasePercent">
+				<target type="ProtoUnit">Godi</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.1" subtype="Damagebonus" unittype="AbstractCavalry" relativity="BasePercent">
+				<target type="ProtoUnit">Hirdman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.1" subtype="Damagebonus" unittype="AbstractInfantry" relativity="BasePercent">
+				<target type="ProtoUnit">ThrowingAxeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.1" subtype="Damagebonus" unittype="AbstractArcher" relativity="BasePercent">
+				<target type="ProtoUnit">Huskarl</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.1" subtype="Damagebonus" unittype="AbstractArcher" relativity="BasePercent">
+				<target type="ProtoUnit">RaidingCavalry</target>
+			</effect>
+			<effect type="Data" action="Build" amount="1.1" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" action="Build" amount="1.1" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+				<target type="ProtoUnit">Godi</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">VillagerNorseToBerserk</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">VillagerNorseToBerserk</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">VillagerDwarfToBerserk</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">VillagerDwarfToBerserk</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">OxCartBuilding</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">OxCartBuilding</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+		</effects>
+	</tech>
+</techtreemods>

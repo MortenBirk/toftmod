@@ -1,0 +1,44 @@
+<tactics>
+    <action>
+        <name>PrayToHotGuy</name>
+        <type>Gather</type>
+        
+        <anim>Pray</anim>
+        
+        <maxrange>4.0</maxrange>
+        
+        <rate type="Favor">1.0</rate>
+        
+        <allowedunittype>AbstractHotGuy</allowedunittype>
+        
+        <active>0</active>
+    </action>
+
+    <action>
+        <name stringid="STR_ACTION_BUILD">Build</name>
+        <type>Build</type>
+        <anim>Build</anim>
+        <maxrange>0.2</maxrange>
+        <rate type="Building">1.0</rate>
+    </action>
+    
+    <action>
+        <name stringid="STR_ACTION_GATHER">Gather</name>
+        <type>Gather</type>
+        <maxrange>0.5</maxrange>
+        <rate type="GoldResource">1.0</rate>
+        <rate type="WoodResource">1.0</rate>
+        <rate type="AbstractFarm">1.0</rate>
+        </action>
+
+    <tactic>
+        Default
+        <action priority="100">PrayToHotGuy</action>
+        <action priority="90">Build</action>
+        <action priority="80">Gather</action>
+        <action>Repair</action>
+        <attackresponsetype>LogicalTypeVillagersAttackResponse</attackresponsetype>
+        <attacktype>LogicalTypeVillagersAttack</attacktype>
+        <attackmovetype>LogicalTypeHandUnitsAutoAttack</attackmovetype>
+    </tactic>
+</tactics>

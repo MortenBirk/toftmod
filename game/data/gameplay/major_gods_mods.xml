@@ -1,0 +1,42 @@
+<civsmods>
+	<civ>
+		<name>Toft</name>
+		<statsid>SP</statsid>
+		<key>N</key>
+		<culture>Norse</culture>
+		<displaynameid>STR_CIV_TOFT</displaynameid>
+		<rollovernameid>STR_CIV_TOFT_LR</rollovernameid>
+		<titleid>STR_CIV_TOFT_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeToft</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchNorse</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="1" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerNorse</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="1" delay="1.00" x="0.00" y="0.00" z="0.00">VillagerNorse</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerNorse</unit>
+		</startingqueue>
+		<startingresources>
+			<food>0</food>
+			<wood>0</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>0</food>
+			<wood>0</wood>
+			<gold>18000</gold>
+			<favor>100</favor>
+		</startingresources>
+		<icon>resources\norse\static_color\major_gods\toft_icon.png</icon>
+		<portrait>resources\norse\static_color\major_gods\toft_portrait.png</portrait>
+		<breakoutportrait>resources\norse\static_color\major_gods\toft_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\nrs_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_norse.mythscn</backgroundscenario>
+	</civ>
+</civsmods>
